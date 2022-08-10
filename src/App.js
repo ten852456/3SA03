@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
+import CharacterCard from './characterCard';
+
 function App() {
  return (
  <div>
- Hello World
+  <CharacterCard value="h"></CharacterCard>
+  <CharacterCard value="i"></CharacterCard>
+
  </div>
  );
 }
